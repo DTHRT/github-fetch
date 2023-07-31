@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>github-fetch</title>
- <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>github-fetch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <main>
+      <form action="#" class="form">
+        <div class="input-container">
+          <input
+            type="text"
+            class="input-container__input"
+            placeholder="Search..."
+          />
 
+          <ul class="autocomplete-container autocomplete-container--hide">
+            <li class="autocomplete-container__item">
+              <button class="autocomplete-container__item-btn">Redux</button>
+            </li>
 
- <script src="assets/js/main.js"></script>
-</body>
+            <li class="autocomplete-container__item">
+              <button class="autocomplete-container__item-btn">Redux</button>
+            </li>
+
+            <li class="autocomplete-container__item">
+              <button class="autocomplete-container__item-btn">Redux</button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="reps-container">
+          <li class="reps-container__item">
+            <ul class="reps-inner">
+              <button class="reps-inner__close"></button>
+              <li class="reps-inner__item">Name: react</li>
+              <li class="reps-inner__item">Owner: facebook</li>
+              <li class="reps-inner__item">Stars: 145231</li>
+            </ul>
+          </li>
+        </ul>
+      </form>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
